@@ -17,10 +17,11 @@ Upload `MBTiles` or `PMTiles`, secure access with API keys and domain restrictio
 ## What Mappinest Provides
 
 - Tile hosting for uploaded vector and raster tilesets
-- StyleJSON delivery for available map styles
-- TileJSON metadata for map-client integrations
+- Available map styles for web map integrations
+- TileJSON metadata for uploaded tilesets
 - API key authentication and domain restrictions
 - Cache-friendly URL patterns for production maps
+- Usage analytics for production map delivery
 - Examples for MapLibre GL JS, Mapbox GL JS, OpenLayers, and Leaflet
 
 ## Example Integrations
