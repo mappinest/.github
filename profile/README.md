@@ -1,10 +1,9 @@
 # Mappinest
 
-Mappinest is developer-first map infrastructure for hosting and delivering map tiles and map styles through standard APIs. It was developed as an alternative to map cloud providers such as Mapbox, MapTiler, and Esri. The goal is to provide predictable hosting costs, detailed usage analytics, and more control over your data and infrastructure.
+Mappinest is developer-first map infrastructure for hosting and delivering map tiles and map styles through standard APIs. It was developed as an alternative to map cloud providers such as Mapbox, MapTiler, and Esri. The goal is to provide predictable hosting costs, detailed usage analytics, and give developers more control over your data and infrastructure. Mappinest provides production-ready vector and raster tile delivery with built-in caching while you keep using the map clients you already know. 
 
-Mappinest provides production-ready vector and raster tile delivery with built-in caching while you keep using the map clients you already know. You can upload `MBTiles` or `PMTiles`, secure access with API keys and domain restrictions, and use the same URLs with MapLibre GL JS, Mapbox GL JS, OpenLayers, Leaflet, desktop GIS tools, and server-side workflows.
+You can upload `MBTiles` or `PMTiles`, secure access with API keys and domain restrictions, and use the same URLs with MapLibre GL JS, Mapbox GL JS, OpenLayers, Leaflet, desktop GIS tools, and server-side workflows. `Maps` are available through the Maps API, use open standards, and can also be self-hosted on your own infrastructure.
 
-Map styles are available through the Maps API, use standard StyleJSON, and can also be self-hosted on your own infrastructure.
 
 ## Start Here
 
