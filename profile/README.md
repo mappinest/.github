@@ -1,18 +1,22 @@
 # Mappinest
 
-Mappinest is developer-first map infrastructure for hosting and delivering map tiles and map styles through standard APIs.
+Mappinest is developer-first map infrastructure for hosting and delivering map tiles and map styles through standard APIs. It was developed as an alternative to map cloud providers such as Mapbox, MapTiler, and Esri. The goal is to provide **predictable hosting costs**, detailed usage analytics, and more control over your data and infrastructure.
 
-Upload `MBTiles` or `PMTiles`, secure access with API keys and domain restrictions, and use the same URLs in MapLibre GL JS, Mapbox GL JS, OpenLayers, Leaflet, desktop GIS tools, and server-side workflows.
+Mappinest provides production-ready **vector and raster tile delivery** with **built-in caching** while you keep using the map clients you already know. You can upload `MBTiles` or `PMTiles`, secure access with API keys and domain restrictions, and use the same URLs with MapLibre GL JS, Mapbox GL JS, OpenLayers, Leaflet, desktop GIS tools, and server-side workflows.
+
+Map styles are available through the Maps API, use standard StyleJSON, and can also be self-hosted on your own infrastructure.
 
 ## Start Here
 
-- [Mappinest website](https://www.mappinest.com)
+- [Website](https://www.mappinest.com)
 - [Documentation](https://www.mappinest.com/docs)
-- [Map client guides](https://www.mappinest.com/docs/guides)
 - [Tiles API](https://www.mappinest.com/docs/tiles-api)
-- [Map Styles API](https://www.mappinest.com/docs/styles-api)
+- [Maps API](https://www.mappinest.com/docs/maps-api)
 - [Pricing](https://www.mappinest.com/pricing)
 - [Public examples](https://github.com/mappinest/examples)
+- [Status & uptime](https://status.mappinest.com)
+- [Changelog](https://www.mappinest.com/docs/reference/changelog)
+
 
 ## What Mappinest Provides
 
@@ -30,7 +34,7 @@ Use the public examples repo when you want copy-ready projects instead of isolat
 
 - [Load a Mappinest map style](https://github.com/mappinest/examples/tree/main/examples/maplibre-gl-js/stylejson-map-style)
 - [Add an uploaded vector tileset](https://github.com/mappinest/examples/tree/main/examples/maplibre-gl-js/uploaded-vector-tileset)
-- [Add an uploaded raster tileset](https://github.com/mappinest/examples/tree/main/examples/maplibre-gl-js/uploaded-raster-tiles)
+- [Add an uploaded raster tileset](https://github.com/mappinest/examples/tree/main/examples/maplibre-gl-js/uploaded-raster-tileset)
 - [Leaflet.VectorGrid vector tileset example](https://github.com/mappinest/examples/tree/main/examples/leaflet/leaflet-vectorgrid)
 
 ## Core Concepts
