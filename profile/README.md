@@ -52,15 +52,17 @@ const map = new maplibregl.Map({
 
 **Tiles API with MapLibre GL JS**
 
-Add a vector tileset source to an existing MapLibre GL JS map using TileJSON.
+Add a vector tileset source to an existing MapLibre GL JS map using TileJSON. 
+ Replace `YOUR_TILESET_ID` with your [tileset ID](https://www.mappinest.com/docs/console/upload-data#tileset-naming) from the console.
 
 ```js
 const apiKey = 'YOUR_MAPPINEST_KEY';
+const tilesetId = 'YOUR_TILESET_ID'; // username.tileset-name
 
 map.on('load', () => {
-  map.addSource('mappinest-counties', {
+  map.addSource('my-tileset', {
     type: 'vector',
-    url: `https://api.mappinest.com/v1/tiles/mappinest.COUNTIES.json?key=${apiKey}`
+    url: `https://api.mappinest.com/v1/tiles/${tilesetId}.json?key=${apiKey}`
   });
 });
 ```
